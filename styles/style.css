@@ -21,7 +21,7 @@ body{
     min-height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/img/main-img.png);
+    background-image: url(main-img.jpg);
 }
 .main-section-container{
     max-width: 1440px;
@@ -148,7 +148,7 @@ nav {
 }
 @media screen and (max-width:1460px) {
     .main-section-container{
-        margin: 0 10px;
+        margin: 0 40px;
     }
     .main-section-heading {
         font-weight: 500;
@@ -158,7 +158,9 @@ nav {
         color: #FFFFFF;
         font-weight: 500;
         font-size: 26px;
+        
     }
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -168,6 +170,9 @@ nav {
     }
     .request__form iframe {
         width: 80%;
+    }
+    .main-section-container{
+        margin: 0 30px;
     }
     .main-section-heading {
         font-weight: 500;
@@ -179,5 +184,16 @@ nav {
         font-weight: 500;
         font-size: 20px;
         width: 100%;
+        line-height: 35px;
+    } 
+}
+@media screen and (max-width: 350px) {
+    .main-section-p {
+        line-height: 40px;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 20px;
+        width: 100%;
+        line-height: 30px;
     } 
 }
