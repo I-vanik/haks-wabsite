@@ -159,6 +159,7 @@ nav {
         font-weight: 500;
         font-size: 26px;
         
+        
     }
     
 }
@@ -185,6 +186,7 @@ nav {
         font-size: 20px;
         width: 100%;
         line-height: 35px;
+        padding-bottom: 40px;
     } 
 }
 @media screen and (max-width: 350px) {
