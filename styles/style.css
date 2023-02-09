@@ -11,6 +11,16 @@
     src: local(kinopoisk-medium) 
         url(fonts/kinopoisk-medium.woff2);
 }
+.main-section-p__br{
+    display: none;
+}
+p {
+    hyphens: auto;
+    -ms-hyphenate-limit-chars: 6 3 3;
+    -ms-hyphenate-limit-zone: 2;   
+    -ms-hyphenate-limit-zone: always;
+    -ms-hyphenate-limit-zone: 8%;
+}
 
 body{
     font-family: 'kinopoisk-medium', sans-serif;
@@ -41,7 +51,7 @@ body{
     font-weight: 500;
     font-size: 30px;
     line-height: 50px;
-    width: 86%;
+    line-break: auto;
 }
 
     /* nav */
@@ -173,7 +183,7 @@ nav {
         width: 80%;
     }
     .main-section-container{
-        margin: 0 30px;
+        margin: 0 20px;
     }
     .main-section-heading {
         font-weight: 500;
@@ -183,11 +193,15 @@ nav {
         line-height: 40px;
         color: #FFFFFF;
         font-weight: 500;
-        font-size: 20px;
+        font-size: 25px;
         width: 100%;
         line-height: 35px;
         padding-bottom: 40px;
-    } 
+        
+    }
+    .main-section-p__br{
+        display: block;
+    }
 }
 @media screen and (max-width: 350px) {
     .main-section-p {
@@ -197,5 +211,6 @@ nav {
         font-size: 20px;
         width: 100%;
         line-height: 30px;
+        
     } 
 }
