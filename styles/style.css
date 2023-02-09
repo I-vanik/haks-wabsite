@@ -21,7 +21,7 @@ body{
     min-height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(main-img.jpg);
+    background-image: url(/img/main-img.png);
 }
 .main-section-container{
     max-width: 1440px;
@@ -148,7 +148,7 @@ nav {
 }
 @media screen and (max-width:1460px) {
     .main-section-container{
-        margin: 0 40px;
+        margin: 0 10px;
     }
     .main-section-heading {
         font-weight: 500;
@@ -178,5 +178,6 @@ nav {
         color: #FFFFFF;
         font-weight: 500;
         font-size: 20px;
+        width: 100%;
     } 
 }
