@@ -74,17 +74,18 @@ nav {
 }
 
 .btn-outline-success {
-    background-color: rgba(215, 137, 215, 0.46);
-    color: #5D54A4;
+    background: linear-gradient(45deg,#9D65C9, #4971C9);
+    color: #ffffff;
     border: solid 2px #9d65c9;
     border-radius: 15px;
     transition: 0.5s;
 }
 
 .btn-outline-success:hover {
-    background-color: #9d65c9;
+    background: linear-gradient(90deg,#9e65c9e3, #4971c9d8);
     border: solid 2px #9d65c9;
     transition: 0.5s;
+    opacity: 0.9;
 }
 
 .logo {
