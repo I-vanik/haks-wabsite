@@ -9,7 +9,7 @@
 
 * {
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
 }
 
 
@@ -113,10 +113,17 @@ nav {
 .program-event{
     text-align: center;
 }
-.program-event p {
-    margin: 0;  
+.program-event span {
+    font-size: 22px;
+}
+.col-6-event p {
+    margin: 0;
     font-size: 19px;
     
+    
+}
+.col-6-event p:last-child{
+    padding-bottom: 20px;
 }
 .arrow {
 }
