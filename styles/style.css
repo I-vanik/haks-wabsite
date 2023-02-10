@@ -114,7 +114,9 @@ nav {
     text-align: center;
 }
 .program-event p {
-    margin: 0;
+    margin: 0;  
+    font-size: 19px;
+    
 }
 .arrow {
 }
