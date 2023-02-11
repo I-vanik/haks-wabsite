@@ -54,7 +54,7 @@ body{
 .main-section-p {
     color: #FFFFFF;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 30.5px;
     line-height: 50px;
     line-break: auto;
 }
@@ -69,7 +69,7 @@ nav {
 }
 
 .navbar-brand{
-    margin-right: 3%;
+    margin-right: 6%;
 }
 .navbar-nav{
     
@@ -78,7 +78,7 @@ nav {
     justify-content: space-between;
 }
 .container-fluid {
-    max-width: 1310px;
+    max-width: 1316px;
     margin: 0 auto;
 }
 
@@ -86,11 +86,11 @@ nav {
     padding: 0;
 }
 .nav-link{
-    font-size: 20px;
+    font-size: 22px;
     padding-bottom:2%; 
     color: #5D54A4;
     margin-right: 40px;
-    font-weight: 400;
+    font-weight: 600;
     background-image: linear-gradient(45deg,#9D65C9, #4971C9);
     background-position: 0% 100%;
     background-repeat: no-repeat;
@@ -113,6 +113,9 @@ nav {
     border-radius: 3px;
     transition: 0.5s;
     font-weight: 600;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
 }
 
 .btn-outline-success:hover {
@@ -183,7 +186,7 @@ nav {
 .carousel__header,
 .request__header {
     text-align: center;
-    font-size: 30px;
+    font-size: 46px;
     padding: 3% 0;
     margin-top: 40px;
 }
