@@ -25,7 +25,18 @@ body{
     min-height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
-    background: linear-gradient(45deg,#9D65C9, #4971C9);
+    background: url(banner.jpg) top -200px left 0px no-repeat;
+    /* background: linear-gradient(90deg,rgba(158, 101, 201, 0.91), rgb(73, 113, 201)); */
+}
+.ballon{
+    background: url(/img/ballon_line.png) top 20px left 20px/100px 100px no-repeat;
+    z-index: 1; 
+}
+.ballon:first-child {
+    left: -6;
+}
+.ballon:last-child {
+    bottom: 0;
 }
 .main-section-container{
     max-width: 1300px;
@@ -60,30 +71,51 @@ nav {
 .navbar-brand{
     margin-right: 3%;
 }
-
+.navbar-nav{
+    
+}
+.collapse{
+    justify-content: space-between;
+}
 .container-fluid {
     padding: 0 8%;
 }
 
-.nav-item a{
+.nav-item {
+    padding: 0;
+}
+.nav-link{
+    font-size: 20px;
+    padding-bottom:2%; 
     color: #5D54A4;
+    margin-right: 40px;
+    font-weight: 400;
+    background-image: linear-gradient(45deg,#9D65C9, #4971C9);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.nav-link:hover{
+    background-size: 100% 2px;
 }
 
 .nav-item a:hover {
     color: #5D54A4;
+    
 }
 
 .btn-outline-success {
     background: linear-gradient(45deg,#9D65C9, #4971C9);
     color: #ffffff;
-    border: solid 2px #9d65c9;
-    border-radius: 15px;
+    border: none;
+    border-radius: 3px;
     transition: 0.5s;
+    font-weight: 600;
 }
 
 .btn-outline-success:hover {
     background: linear-gradient(90deg,#9e65c9e3, #4971c9d8);
-    border: solid 2px #9d65c9;
     transition: 0.5s;
     opacity: 0.9;
 }
@@ -117,11 +149,21 @@ nav {
 }
 
 .program-event{
-    text-align: center;
+    padding: 2% 1%;
 }
+.program-event p{
+    padding-bottom: 30px;
+}
+
 .program-event span {
     font-size: 22px;
+    margin-right: 20px;
 }
+.program-event span:first-child{
+    margin-right: 22px;
+}
+
+
 .col-6-event p {
     margin: 0;
     font-size: 19px;
@@ -204,6 +246,23 @@ nav {
         font-size: 26px; 
     }  
 }
+@media screen and (max-width: 1000px) {
+    .nav-item{
+        width: 130px;
+        line-height: 1;
+        margin-bottom: 20px;
+    }
+    .nav-item:first-child{
+        width: 90px;
+    }
+    .nav-item:last-child{
+        width: 85px;
+    }
+    .nav-link:hover{
+        background-size: 100% 2px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .col-6-event{
         width:90%;
