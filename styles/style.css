@@ -78,7 +78,8 @@ nav {
     justify-content: space-between;
 }
 .container-fluid {
-    padding: 0 8%;
+    max-width: 1310px;
+    margin: 0 auto;
 }
 
 .nav-item {
