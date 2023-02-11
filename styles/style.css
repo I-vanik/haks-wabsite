@@ -271,6 +271,9 @@ nav {
         margin: 0 auto;
         padding: 0 10%;
     }
+    .btn-outline-success{
+        margin-bottom: 15px;
+    }
 }
 
 @media screen and (max-width: 600px) {
