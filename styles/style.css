@@ -266,6 +266,11 @@ nav {
     .nav-link:hover{
         background-size: 100% 2px;
     }
+    .container-fluid {
+        max-width: 1316px;
+        margin: 0 auto;
+        padding: 0 10%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -283,7 +288,7 @@ nav {
         width: 80%;
     }
     .main-section-container{
-        margin: 0 20px;
+        margin: 0 40px;
     }
     .main-section-heading {
         font-weight: 500;
