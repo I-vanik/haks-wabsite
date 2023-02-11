@@ -153,6 +153,7 @@ nav {
 }
 .program-event p{
     padding-bottom: 30px;
+    margin: 0 20px;
 }
 
 .program-event span {
@@ -295,6 +296,9 @@ nav {
     }
     .main-section-p__br{
         display: block;
+    }
+    .program-event{
+        padding: 2% 4%;
     }
 }
 @media screen and (max-width: 350px) {
